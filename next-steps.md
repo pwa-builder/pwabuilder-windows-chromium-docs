@@ -22,11 +22,11 @@ The install script will install and launch your PWA app. Once complete, you'll f
 
 ## 2. Submit your `.msix` to the Microsoft Store
 
-Your zip file contains an `.msix` file which can be submitted directly to the Microsoft Store through the [Windows Dev Center](https://partner.microsoft.com/dashboard). 
+Your zip file contains `{app name}.store.msix` file which can be submitted directly to the Microsoft Store through the [Windows Dev Center](https://partner.microsoft.com/dashboard).
 
-This `.msix` utilizes Microsoft's [Hosted App Model](https://blogs.windows.com/windowsdeveloper/2020/03/19/hosted-app-model/) to install your app as a PWA hosted by Chromium-based Edge.
+This `.msix` file utilizes Microsoft's [Hosted App Model](https://blogs.windows.com/windowsdeveloper/2020/03/19/hosted-app-model/) to install your app as a PWA hosted by Chromium-based Edge, meaning your PWA can utilize modern web technologies.
 
-Once you submit your app, it will be reviewed. Once approved, your PWA will be available in the Microsoft Store. 😎
+Once you submit your app, it will be reviewed. Once approved -- typically within 24 hours -- your PWA will be available in the Microsoft Store and accessible to ~1 billion Windows users worldwide. 😎
 
 ## 3. Submit your `.appx` to the Microsoft Store (optional)
 
@@ -34,7 +34,7 @@ While this step isn't strictly necessary, skipping it will prevent users on olde
 
 Users on newer versions of Windows (v10.0.19041 May 2020 Update) will be able to install the `.msix` you uploaded in step 2. 
 
-To support users on old Windows versions, your zip file contains an `.appx` package. While this package doesn't take advantage of the new hosted app model, it runs on older Windows versions by instructing Edge to install your PWA.
+To support users on old Windows versions, your zip file contains an `{app name}.legacy.appx` package. While this package doesn't take advantage of the new hosted app model, it runs on older Windows versions by instructing Edge to install your PWA.
 
 > 💁🏾‍♀️ *Heads up*: 
 > 
