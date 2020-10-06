@@ -1,8 +1,8 @@
 # Finding your Windows Publisher ID
 
-In order to publish to the Microsoft Store, you'll need your `Publisher ID` before generating your app on PWABuilder.
+In order to publish your PWA in the Microsoft Store, you'll need your `Publisher ID`.
 
-To find this, log into [Windows Dev Center](https://partner.microsoft.com/dashboard). Click `⚙` -> `Developer Settings`
+To find this, go to [Windows Dev Center](https://partner.microsoft.com/dashboard) and login with your Microsoft account. Click `⚙` -> `Developer Settings`
 
 <img alt="Developer settings in Windows Dev Center" src="/images/devsettings.png" /> 
 
@@ -12,7 +12,7 @@ To find this, log into [Windows Dev Center](https://partner.microsoft.com/dashbo
 
 Once in Developer Settings, choose `Account Settings`, and in `Account Details`, you'll find your `Windows Publisher ID`:
 
-<img alt="Developer settings in Windows Dev Center" src="/images/publisherid.png" /> 
+<img alt="Publisher ID details in Windows Dev Center" src="/images/publisherid.png" /> 
 
 This is your Publisher ID (publisher common name), which you'll need when generating your Windows app on PWABuilder.
 
@@ -26,11 +26,11 @@ If you don't see `Developer Settings` in the dropdown menu, or don't see `Window
 
 To do that, in the Dev Center landing page, choose `Add Program`:
 
-<img alt="Developer settings in Windows Dev Center" src="/images/addprogram.png" /> 
+<img alt="Adding an enrollment" src="/images/addprogram.png" /> 
 
 Then choose `Windows & Xbox` -> `Get Started`:
 
-<img alt="Developer settings in Windows Dev Center" src="/images/enrollapps.png" /> 
+<img alt="Enrolling in Windows and Xbox developer program" src="/images/enrollapps.png" /> 
 
 Follow the prompts to enroll in the Windows & Xbox developer program. Once you do, you should be able to copy your `Publisher ID` as described above.
 
