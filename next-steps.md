@@ -28,6 +28,10 @@ This `.msix` file utilizes Microsoft's [Hosted App Model](https://blogs.windows.
 
 Once you submit your app, it will be reviewed. Once approved -- typically within 24 hours -- your PWA will be available in the Microsoft Store and accessible to ~1 billion Windows users worldwide. 😎
 
+> 💁🏻‍♀️ *Heads up*: 
+> 
+> Get an error saying, *"install.ps1 cannot be loaded because running scripts is disabled on this system"*? To fix this, open PowerShell as Administrator, then enter the command `Set-ExecutionPolicy bypass` Once completed, you'll be able to run `install.ps1`.
+
 ## 3. Submit your `.appx` to the Microsoft Store (optional)
 
 While this step isn't strictly necessary, skipping it will prevent users on older versions of Windows from installing your app.
@@ -38,7 +42,7 @@ To support users on old Windows versions, your zip file contains an `{app name}.
 
 > 💁🏾‍♀️ *Heads up*: 
 > 
-> Due to a Microsoft Store limitation, this `.appx` package is one version below your primary app version. So if your modern `.msix` app is version `1.5.2`, your legacy `.appx` will be version `1.5.1`. In the Microsoft Store, users will be offered whichever app is supported on their version of Windows.
+> If you get an error uploading your package to the Dev Center, make sure your [Publisher ID is correct](/find-publisher.md).
 
 ## Need more help?
 
