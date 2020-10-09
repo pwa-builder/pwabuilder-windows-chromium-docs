@@ -6,37 +6,37 @@ This guide shows how to publish your PWA as a new app in the Store. If you alrea
 
 Login to [Windows Partner Center](https://partner.microsoft.com/dashboard) with your Microsoft account.
 
-Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home) to see your enrolled programs. If `Windows & Xbox` is listed, great, you're already enrolled. If not, choose `Add program`: <br> <img src="/images/add-program.png" />
+Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home) to see your enrolled programs. If `Windows & Xbox` is listed, great, you're already enrolled. If not, choose `Add program`: <br> <img src="/images/add-program.png" width="300px" />
 
 Then, under `Windows & Xbox`, choose `Get started`: 
 
-<img src="/images/enroll-apps.png" /> 
+<img src="/images/enroll-apps.png" width="300px" /> 
 
 ## Create your app
 
 Now that you're enrolled in the Windows developer program, on the left-side nav bar, under `Windows & Xbox`, choose [`Overview`](https://partner.microsoft.com/en-us/dashboard/windows/overview), and click `Create a new app`:
 
-<img src="/images/create-app.png"/>
+<img src="/images/create-app.png" width="300px"/>
 
 ## Start a new submission
 
 Click `Start a new Submission`:
-<img src="/images/start-submission.png" />
+<img src="/images/start-submission.png" width="300px" />
 
 ## Add packages
 
 On the submission details page, you'll see your most recent app submission. Click `Packages` to upload your app packages:
 
-<img src="/images/packages-new.png" />
+<img src="/images/packages-new.png" width="350px" />
 
 On the packages screen, click `Browse your files`:
 
-<img src="/images/browse-for-package.png" />
+<img src="/images/browse-for-package.png" width="300px" />
 
 When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`.
 
 > 💁🏾‍♂️ *Heads up*
-> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" />
+> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" /><br>
 > This warning can be safely ignored.
 
 
@@ -45,8 +45,7 @@ When browsing for your files, **choose both package files**, `*.msixbundle` *and
 
 Once you upload both package files, you should see something like this, with both packages listed:
 
-<img src="/images/both-packages.png" />
-<br>
+<img src="/images/both-packages.png" width="300px" />
 <br>
 
 > 💁🏽‍♀️ *Heads up*: 
@@ -55,7 +54,7 @@ Once you upload both package files, you should see something like this, with bot
 
 Lastly, in the platforms support list, choose `Windows 10 Desktop` and uncheck all other platforms:
 
-<img src="/images/win10-desktop-only.png" />
+<img src="/images/win10-desktop-only.png" width="300px" />
 <br>
 <br>
 
@@ -69,10 +68,10 @@ Click `Save` to save your packages and return to the  submission details screen.
 
 You should now see the submission status. Fill out any incomplete statuses:
 
-<img src="/images/not-started-status.png" />
+<img src="/images/not-started-status.png" width="350px" />
 
 > 💁🏼‍♀️ Heads up
-> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" />
+> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" width="300px" />
 > You can write, "Needed for PWA Hosted App model, created by pwabuilder.com"
 
 Complete all such statuses, then click `Submit to the Store` when finished.
