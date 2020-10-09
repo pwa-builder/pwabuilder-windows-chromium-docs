@@ -4,7 +4,7 @@ This guide shows how to publish your PWA as a new app in the Store. If you alrea
 
 ## Enroll in Windows developer program
 
-Login to [Windows Dev Center](https://partner.microsoft.com/dashboard) with your Microsoft account.
+Login to [Windows Partner Center](https://partner.microsoft.com/dashboard) with your Microsoft account.
 
 Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home) to see your enrolled programs. If `Windows & Xbox` is listed, great, you're already enrolled. If not, choose `Add program`: <br> <img src="/images/add-program.png" />
 

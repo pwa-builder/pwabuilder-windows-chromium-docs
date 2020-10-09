@@ -2,9 +2,9 @@
 
 In order to publish your PWA in the Microsoft Store, you'll need your `Publisher ID`.
 
-To find this, go to [Windows Dev Center](https://partner.microsoft.com/dashboard) and login with your Microsoft account. Click `⚙` -> `Developer Settings`
+To find this, go to [Windows Partner Center](https://partner.microsoft.com/dashboard) and login with your Microsoft account. Click `⚙` -> `Developer Settings`
 
-<img alt="Developer settings in Windows Dev Center" src="/images/dev-settings.png" /> 
+<img alt="Developer settings in Windows Partner Center" src="/images/dev-settings.png" /> 
 
 <br>
 <br>
@@ -15,7 +15,7 @@ To find this, go to [Windows Dev Center](https://partner.microsoft.com/dashboard
 
 Once in Developer Settings, choose `Account Settings`, and in `Account Details`, you'll find your `Windows Publisher ID`:
 
-<img alt="Publisher ID details in Windows Dev Center" src="/images/publisher-id.png" /> 
+<img alt="Publisher ID details in Windows Partner Center" src="/images/publisher-id.png" /> 
 
 This is your Publisher ID (publisher common name), which you'll need when generating your Windows app on PWABuilder.
 
