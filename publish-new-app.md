@@ -6,22 +6,23 @@ This guide shows how to publish your PWA as a new app in the Store. If you alrea
 
 Login to [Windows Partner Center](https://partner.microsoft.com/dashboard) with your Microsoft account.
 
-Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home) to see your enrolled programs. If `Windows & Xbox` is listed, great, you're already enrolled. If not, choose `Add program`: <br> <img src="/images/add-program.png" width="300px" />
+Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home) to see your enrolled programs. If `Windows & Xbox` is listed, great, you're already enrolled. If not, choose `Add program`: <br> <img src="/images/add-program.png" width="350px" />
 
 Then, under `Windows & Xbox`, choose `Get started`: 
 
-<img src="/images/enroll-apps.png" width="300px" /> 
+<img src="/images/enroll-apps.png" width="350px" /> 
 
 ## Create your app
 
 Now that you're enrolled in the Windows developer program, on the left-side nav bar, under `Windows & Xbox`, choose [`Overview`](https://partner.microsoft.com/en-us/dashboard/windows/overview), and click `Create a new app`:
 
-<img src="/images/create-app.png" width="300px"/>
+<img src="/images/create-app.png" width="350px"/>
 
 ## Start a new submission
 
 Click `Start a new Submission`:
-<img src="/images/start-submission.png" width="300px" />
+
+<img src="/images/start-submission.png" width="350px" />
 
 ## Add packages
 
@@ -31,7 +32,7 @@ On the submission details page, you'll see your most recent app submission. Clic
 
 On the packages screen, click `Browse your files`:
 
-<img src="/images/browse-for-package.png" width="300px" />
+<img src="/images/browse-for-package.png" width="350px" />
 
 When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`.
 
@@ -45,7 +46,7 @@ When browsing for your files, **choose both package files**, `*.msixbundle` *and
 
 Once you upload both package files, you should see something like this, with both packages listed:
 
-<img src="/images/both-packages.png" width="300px" />
+<img src="/images/both-packages.png" width="350px" />
 <br>
 
 > 💁🏽‍♀️ *Heads up*: 
@@ -54,7 +55,7 @@ Once you upload both package files, you should see something like this, with bot
 
 Lastly, in the platforms support list, choose `Windows 10 Desktop` and uncheck all other platforms:
 
-<img src="/images/win10-desktop-only.png" width="300px" />
+<img src="/images/win10-desktop-only.png" width="350px" />
 <br>
 <br>
 
@@ -71,7 +72,7 @@ You should now see the submission status. Fill out any incomplete statuses:
 <img src="/images/not-started-status.png" width="350px" />
 
 > 💁🏼‍♀️ Heads up
-> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" width="300px" />
+> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" width="350px" />
 > You can write, "Needed for PWA Hosted App model, created by pwabuilder.com"
 
 Complete all such statuses, then click `Submit to the Store` when finished.
