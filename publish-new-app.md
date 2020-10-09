@@ -10,11 +10,12 @@ Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home)
 
 Then, under `Windows & Xbox`, choose `Get started`: 
 
- <br>  <img src="/images/enroll-apps.png" /> 
+<img src="/images/enroll-apps.png" /> 
 
 ## Create your app
 
 Now that you're enrolled in the Windows developer program, on the left-side nav bar, under `Windows & Xbox`, choose [`Overview`](https://partner.microsoft.com/en-us/dashboard/windows/overview), and click `Create a new app`:
+
 <img src="/images/create-app.png"/>
 
 ## Start a new submission
