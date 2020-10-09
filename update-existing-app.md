@@ -6,7 +6,7 @@ This guide shows how to publish your PWA as an update to an existing app in the 
 
 Login to [Windows Partner Center](https://partner.microsoft.com/dashboard), then go to `Windows & Xbox` -> `Overview`. Your existing apps will be listed:
 
-<img src="/images/existing-apps.png" />
+<img src="/images/existing-apps.png" width="350px" />
 
 Click the name of the app you want to update, and you'll be taken to the app details page.
 
@@ -27,17 +27,18 @@ On the packages screen, click `Browse your files`:
 When browsing for your files, **choose both package files**, `*.msixbundle` and `*.appxbundle`.
 
 > 💁🏾‍♂️ *Heads up*
-> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" />
+> 
+> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" /><br>
 > This warning can be safely ignored.
 
 
 > 💁‍♂️ *Other errors*
+> 
 > If you're getting other errors when uploading your packages, see [fixing package errors](/package-errors.md).
 
 Once you upload both package files, you should see something like this, with both packages listed:
 
 <img src="/images/both-packages.png" />
-<br>
 <br>
 
 > 💁🏽‍♀️ *Heads up*: 
@@ -47,7 +48,6 @@ Once you upload both package files, you should see something like this, with bot
 Lastly, in the platforms support list, choose `Windows 10 Desktop` and uncheck all other platforms:
 
 <img src="/images/win10-desktop-only.png" />
-<br>
 <br>
 
 > 💁🏿‍♀️ *Heads up*
@@ -60,15 +60,14 @@ Click `Save` to save your packages and return to the  submission details screen.
 
 You should now see the submission status. Fill out any `in progress` or `incomplete` settings:
 
-<img src="/images/remaining-options.png" />
+<img src="/images/remaining-options.png" width="400px" />
 
-In the above image, `Age ratings` is `In progress` and `Submission options` is `Incomplete`.
+Fill out the missing sections, then click `Submit to the Store` when finished.
 
-> 💁🏼‍♀️ Heads up
-> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" />
+> 💁🏼‍♀️ *Heads up*
+> 
+> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" width="400px" /><br>
 > You can write, "Needed for PWA Hosted App model, created by pwabuilder.com"
-
-Complete all such statuses, then click `Submit to the Store` when finished.
 
 ## Need more help?
 
