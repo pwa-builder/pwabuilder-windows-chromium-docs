@@ -28,7 +28,7 @@ Click `Start a new Submission`:
 
 On the submission details page, you'll see your most recent app submission. Click `Packages` to upload your app packages:
 
-<img src="/images/packages-new.png" width="350px" />
+<img src="/images/packages-new.png" />
 
 On the packages screen, click `Browse your files`. When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`.
 
@@ -42,7 +42,7 @@ On the packages screen, click `Browse your files`. When browsing for your files,
 
 Once you upload both package files, you should see something like this, with both packages listed:
 
-<img src="/images/both-packages.png" width="350px" />
+<img src="/images/both-packages.png" />
 <br>
 
 > 💁🏽‍♀️ *Heads up*: 
