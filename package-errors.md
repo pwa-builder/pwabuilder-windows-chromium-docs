@@ -1,4 +1,4 @@
-# Debugging common errors
+# Fixing common errors in Microsoft Store app submissions
 
 This guide describes how to fix errors you may receive when uploading your PWA app package.
 
