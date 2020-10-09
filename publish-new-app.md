@@ -33,11 +33,13 @@ On the submission details page, you'll see your most recent app submission. Clic
 On the packages screen, click `Browse your files`. When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`.
 
 > 💁🏾‍♂️ *Heads up*
+>
 > Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" /><br><br>
 > This warning can be safely ignored.
 
 
 > 💁‍♂️ *Other errors*
+>
 > If you're getting other errors when uploading your packages, see [fixing package errors](/package-errors.md).
 
 Once you upload both package files, you should see something like this, with both packages listed:
@@ -67,7 +69,8 @@ You should now see the submission status. Fill out any incomplete statuses:
 
 <img src="/images/not-started-status.png" width="350px" />
 
-> 💁🏼‍♀️ Heads up
+> 💁🏼‍♀️ *Heads up*
+>
 > In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" width="350px" /><br><br>
 > You can write, "Needed for PWA Hosted App model, created by pwabuilder.com"
 
