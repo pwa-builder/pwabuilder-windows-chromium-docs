@@ -36,7 +36,7 @@ On the packages screen, click `Browse your files`:
 When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`.
 
 > 💁🏾‍♂️ *Heads up*
-> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" /><br>
+> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" /><br><br>
 > This warning can be safely ignored.
 
 
