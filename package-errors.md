@@ -7,11 +7,13 @@ This guide describes how to fix errors you may receive when uploading your PWA a
 - [Invalid package family name](#invalid-package-identity-name--invalid-package-family-name)
 - [This package's manifest uses a display name that you have not reserved](#this-packages-manifest-uses-a-display-name-that-you-have-not-reserved)
 
+Be aware most of these issues are due to using the incorrect publisher information. [Get the correct publisher info](/find-publisher.md).
+
 ## "Invalid package publisher name"
 
 <img src="/images/invalid-publisher-id.png" />
 
-This error indicates that you need to rebuild your PWA app package with the correct `publisher ID`. [How can I find my publisher ID?](/find-publisher.md)
+This error indicates that you need to rebuild your PWA app package with the correct `publisher`. [How can I find my publisher ID?](/find-publisher.md)
 
 ## "Invalid package identity name" / "Invalid package family name"
 
