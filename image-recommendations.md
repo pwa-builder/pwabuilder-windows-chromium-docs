@@ -89,7 +89,7 @@ In addition to the standard scale factor sizes described above, we also recommen
 
 Shown in start jump list, shortcuts, control panel:
 
-<img src="/images/windows-image-target-size.png" />
+<img src="/images/windows-image-target-size.png" width="250px" />
 
 Recommended sizes:
 
@@ -111,13 +111,15 @@ Optional sizes:
 - 80x80
 - 96x96
 
-#### Light theme icons
+#### Light theme and high contrast icons unsupported
 
-[Windows Light Theme assets](https://docs.microsoft.com/en-us/windows/uwp/app-resources/tailor-resources-lang-scale-contrast#shell-light-theme-and-unplated-resources) are currently unsupported in the PWABuilder Windows platform. Please [open an issue](https://github.com/pwa-builder/pwabuilder/issues) if light theme icon support is important to you.
+[Windows Light Theme icons](https://docs.microsoft.com/en-us/windows/uwp/app-resources/tailor-resources-lang-scale-contrast#shell-light-theme-and-unplated-resources) and [high contrast icons](https://docs.microsoft.com/en-us/windows/uwp/app-resources/tailor-resources-lang-scale-contrast#contrast) are currently unsupported in the PWABuilder Windows platform. Please [open an issue](https://github.com/pwa-builder/pwabuilder/issues) if support is important to you.
 
 #### Unplated icons
 
-[Unplated assets](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#unplated-assets) are currently unsupported in the PWABuilder Windows platform. Please [open an issue](https://github.com/pwa-builder/pwabuilder/issues) if unplated icon support is important to you.
+PWABuilder assumes your icon works as an [unplated icon](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#unplated-assets), building your app with support for showing your icon as unplated in Windows. PWABuilder currently doesn't support changing this behavior. 
+
+If support for showing only plated icons in Windows is important for your app, please [open an issue](https://github.com/pwa-builder/pwabuilder/issues).
 
 
 ## Summary
