@@ -1,8 +1,10 @@
 ## Image recommendations for Windows PWA packages
 
-Microsoft [recommends](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#:~:text=Here%2C%20you%20can%20upload%203%20image%20sizes%20that,Display%20only%20uploaded%20logo%20images%20in%20the%20Store.) you have a 12 images, plus 4 scaled versions (1.25x, 1.5x, 2x, 4x) of each image for different display scale factors. **Each of these images must be in PNG format.**
+Microsoft [recommends](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#:~:text=Here%2C%20you%20can%20upload%203%20image%20sizes%20that,Display%20only%20uploaded%20logo%20images%20in%20the%20Store.) you have about ~50 images for your app, covering start menu tiles, different display scales, and smaller target sizes. Each of these images must be in PNG format.
 
-PWABuilder makes this process easier for you: if you have an image with the right dimensions listed in your web manifest, we'll use that. And if you don't have such an image, we'll generate it for you based on a large square image from your manifest, typically 512x512 as a first choice and 192x192 as a fallback.
+PWABuilder makes this process easy for you: if you have an image with the right dimensions listed in your web manifest, we'll use that. And if you don't have such an image, we'll generate it for you based on a large square image from your manifest, typically 512x512 as a first choice and 192x192 as a fallback.
+
+Below you'll find each recommended icon, its dimensions, and purpose in Windows. You can [jump down to the summary](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#summary) to find recommended icons sizes.
 
 #### App icon
 <img src="/images/windows-image-app-icon.png" />
@@ -73,7 +75,7 @@ Shown in app installer, Windows Partner Center, the "Report an app" option in th
 #### Splash screen
 <img src="/images/windows-image-splash.png" />
 
-Shown as the splash screen for your app. Currently supported only only in classic package. In the future, we may add support for the modern hosted app package as well.
+Shown as the splash screen for your app. Currently supported only in classic package. In the future, we may add support for the modern hosted app package as well.
 
 - 620x300 
 - 775x375 (1.25x scale)
@@ -85,9 +87,9 @@ Shown as the splash screen for your app. Currently supported only only in classi
 
 In addition to the standard scale factor sizes described above, we also recommend creating "target-size" assets. We call these assets target-size because they target specific sizes, such as 16 pixels, rather than specific scale factors, such as 400. Target-size assets are for Windows surfaces that don't use the scaling plateau system.
 
-<img src="/images/windows-image-target-size.png" />
+Shown in start jump list, shortcuts, control panel:
 
-Shown in start jump list, shortcuts, control panel.
+<img src="/images/windows-image-target-size.png" />
 
 Recommended sizes:
 
@@ -231,13 +233,13 @@ Having icons icons for these sizes becomes more important as more devices ship w
 - 1240x600 - splash screen 2x display scale
 - 2480x1200 - splash screen 4x display scale
 - 16x16 - OS surfaces like taskbar, start menu, task manager
-- 24x24 - OS surfaces like taskbar, start menu, task manager
-- 32x32 - OS surfaces like taskbar, start menu, task manager
-- 48x48 - OS surfaces like taskbar, start menu, task manager
 - 20x20 - OS surfaces like taskbar, start menu, task manager
+- 24x24 - OS surfaces like taskbar, start menu, task manager
 - 30x30 - OS surfaces like taskbar, start menu, task manager
+- 32x32 - OS surfaces like taskbar, start menu, task manager
 - 36x36 - OS surfaces like taskbar, start menu, task manager
 - 40x40 - OS surfaces like taskbar, start menu, task manager
+- 48x48 - OS surfaces like taskbar, start menu, task manager
 - 60x60 - OS surfaces like taskbar, start menu, task manager
 - 64x64 - OS surfaces like taskbar, start menu, task manager
 - 72x72 - OS surfaces like taskbar, start menu, task manager
@@ -245,6 +247,6 @@ Having icons icons for these sizes becomes more important as more devices ship w
 - 96x96 - OS surfaces like taskbar, start menu, task manager
 - 256x256 - OS surfaces like taskbar, start menu, task manager
 
-In level 4, you supply a base 512x512 image, images for tiles with display scales, and target size images for display in various surfaces in Windows, including taskbar, start menu, task manager, ALT+Tab task switcher, and more.
+In level 4, you supply a base 512x512 image, images for tiles with display scales, and target size images for display in various surfaces in Windows, including taskbar, start menu, task manager, ALT+Tab task switcher, and more. 
 
 This provides the best experience for your users, but also requires the most developer effort.
