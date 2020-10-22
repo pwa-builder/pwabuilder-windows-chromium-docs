@@ -21,7 +21,10 @@ The install script will install and launch your PWA app. Once complete, you'll f
 
 ## 2. Submit your app packages to the Microsoft Store
 
-Your zip file contains `{app name}.msixbundle` file, the main app package. It also includes a `.{app name}.classic.appxbundle` package that allows users on older versions of Windows (below 10.0.19041, May 2020 Update) to run your app.
+Your zip file contains 2 packages: 
+
+- `{app name}.msixbundle` - the main app package
+- `{app name}.classic.appxbundle` - package that allows users on older versions of Windows (below 10.0.19041, May 2020 Update) to run your app.
 
 Both packages can be submitted directly to the Microsoft Store through the [Windows Partner Center](https://partner.microsoft.com/dashboard)
 
@@ -30,6 +33,10 @@ When you're ready to publish to the Store, you can either
 - [Update an existing app in the Store](/update-existing-app.md)
 
 Once you submit your app, it will be reviewed. Once approved -- typically within 24 hours -- your PWA will be available in the Microsoft Store and accessible to ~1 billion Windows users worldwide. 😎
+
+## Recommended images for Windows
+
+To help make your PWA shine on Windows, check out our [Windows app images explainer](/image-recommendations.md) for details about what image sizes you should include in your web app manifest for the best experience on Windows.
 
 ## Need more help?
 
