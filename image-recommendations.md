@@ -6,7 +6,7 @@ Optionally, you can supply PNG images of the right sizes in your web manifest, a
 
 ## Overview
 
-Your PWA can be enhanced on Windows by supplying more images. We recommend choosing one of the options below:
+Your PWA can be enhanced on Windows by supplying the images with specific dimensions in your web app manifest. We recommend choosing one of the options below:
 
 ### Level 1: Basic image support
 
