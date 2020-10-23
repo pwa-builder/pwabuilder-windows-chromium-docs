@@ -2,15 +2,13 @@
 
 Your PWA for Windows should have a square, 512x512 or larger PNG image from which PWABuilder will generate the [recommended Windows app images](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos).
 
-Optionally, you can supply images of the right sizes in your web manifest, and PWABuilder will use those instead.
-
-Below you'll find each recommended icon, its dimensions, and purpose in Windows.
+Optionally, you can supply PNG images of the right sizes in your web manifest, and PWABuilder will use those instead.
 
 ## Overview
 
 Your PWA can be enhanced on Windows by supplying more images. We recommend choosing one of the options below:
 
-#### Level 1: Basic image support
+### Level 1: Basic image support
 
 - 512x512 - base image from which to generate missing images
 
@@ -18,7 +16,7 @@ This is the easiest developer option, but it's also the most basic and won't sta
 
 In PWABuilder's Windows platform options, you specify the URL of a square, 512x512 or larger PNG image. This is the base image from which PWABuilder will generate all Windows app images.
 
-#### Level 2: Tiles
+### Level 2: Tiles
 
 Your [web app manifest icons](https://www.w3.org/TR/appmanifest/#icons-member) should  include images with these dimensions:
 
@@ -30,9 +28,9 @@ Your [web app manifest icons](https://www.w3.org/TR/appmanifest/#icons-member) s
 - 50x50 - [store logo](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#store-logo)
 - 620x300 - [splash screen](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#splash-screen)
 
-At this level, your web app manifest contains [tile images](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#icon-types-locations-and-scale-factors) for the default (1x) display scale, along with a 512x512 image which PWABuilder will use to generate missing images. Each of the images must be in PNG format and [purpose `any`](https://www.w3.org/TR/appmanifest/#purpose-member).
+At this level, your web app manifest contains [tile images](https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#icon-types-locations-and-scale-factors) for the default (1x) display scale. Each of the images must be in PNG format and [purpose `any`](https://www.w3.org/TR/appmanifest/#purpose-member).
 
-#### Level 3: Tiles with display scales
+### Level 3: Tiles with display scales
 
 Your [web app manifest icons](https://www.w3.org/TR/appmanifest/#icons-member) should  include images with these dimensions:
 
@@ -82,7 +80,9 @@ Additionally, on Windows devices with high DPI and high resolution displays, Win
 
 Having icons icons for these sizes becomes more important as more devices ship with high density and high resolution displays.
 
-#### Level 4: Tiles, display scales, and target sizes
+### Level 4: Tiles, display scales, and target sizes
+
+Your [web app manifest icons](https://www.w3.org/TR/appmanifest/#icons-member) should  include images with these dimensions:
 
 - 44x44 - [app icon](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#app-icon)
 - 55x55 - [app icon](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#app-icon) 1.25x display scale
