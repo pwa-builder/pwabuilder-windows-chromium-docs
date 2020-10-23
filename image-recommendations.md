@@ -138,6 +138,24 @@ In level 4, you supply images for tiles with display scales and target size imag
 
 This provides the best experience for your users, but also requires the most developer effort.
 
+## Image level summary
+
+We recommend you choose one of the levels described above. **Keep in mind that if you don't supply one or more of the above image sizes in your web manifest, PWABuilder will generate it for you**. 
+
+For example, if you don't supply a 284x284 (small tile 4x display scale) image in your web manifest, PWABuilder will create it for you by scaling down the large, square PNG image you supplied in the PWABuilder options dialog.
+
+If PWABuilder generating all the images is acceptable for your app, then you may proceed with Level 1 or Level 2. But if you want control over which icons show up in Windows -- not just using some scaled image variant -- you should choose Level 3 or 4.
+
+Consider, for example, how your app icon might show different content depending on the size:
+
+App icon (44x44) in taskbar, showing a small, abbreviated logo:
+<img src="/images/windows-image-app-icon.png" />
+
+Medium tile (150x150) in start menu, showing the full logo of the app:
+<img src="/images/windows-image-medium-tile.png" />
+
+Notice how the content of the icon changed. This is possible only through the use of higher levels of icon support. Thus, we recommend developers choose higher levels to give the best experience for your Windows users.
+
 ## Icon descriptions
 
 Below you'll find a description of each app icon and where they show up in Windows.
