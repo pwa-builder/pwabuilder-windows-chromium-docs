@@ -20,6 +20,10 @@ Now that you're enrolled in the Windows developer program, on the left-side nav 
 
 ## Start a new submission
 
+If you haven't yet generated your Windows app package through PWABuilder, do that first; you now have everything you need to generate your app package.
+
+Once you've done that, follow the steps below.
+
 Click `Start a new Submission`:
 
 <img src="/images/start-submission.png" width="350px" />
