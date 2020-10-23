@@ -11,14 +11,18 @@ The modern package, `{app name}.msixbundle`, uses the [Hosted App Model](https:/
 
 ## Classic package
 
-The classic package, `{app name}.classic.appxbundle`, runs on older versions of Windows, versions prior to 10.0.19041, May 2020 Update. This version still uses the new Edge, but it doesn't rely on the Hosted App Model. Instead, it uses a bootstrapper app which instructs Edge to install the PWA on your behalf. 
+The classic package, `{app name}.classic.appxbundle`, runs on older versions of Windows, versions prior to 10.0.19041, May 2020 Update. This version still uses the new Edge, but it doesn't rely on the Hosted App Model. Instead, it uses a bootstrapper app which instructs Edge to install and launch the PWA.
 
 The classic package doesn't include some nice-to-haves, such as [different app icons](/image-recommendations.md) for start menu, task bar, etc.
 
 ## Versioning
 
-The modern package should have a version greater than the classic package. For example, if your modern package is version `2.0.0`, the classic package should be `1.9.0`. Also note that app versions must always start with 1; you cannot have version `0.9.0`, for example.
+The modern package should have a version greater than the classic package. For example, if your modern package is version `2.0.0`, the classic package should be `1.9.0`. 
+
+Be aware that the Store requires that app versions must always start with 1; you cannot have version `0.9.0`, for example. 
+
+Additionally, app versions cannot contain 4 sections. For example, version `1.5.2.1` is invalid, because the last section is reserved for Store use.
 
 ## Submitting your app to the Store
 
-When you submit your app to the Microsoft Store, you'll upload both versions of the app. Users will be offered to download whichever version their OS can support.
+When you submit your app to the Microsoft Store, you'll [upload both modern and classic app packages](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/publish-new-app.md#add-packages). Users will be offered to download whichever version their OS can support.
