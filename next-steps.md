@@ -21,10 +21,10 @@ The install script will install and launch your PWA app. Once complete, you'll f
 
 ## 2. Submit your app packages to the Microsoft Store
 
-Your zip file contains 2 packages: 
+Your zip file [contains 2 app packages](/classic-package.md): 
 
 - `{app name}.msixbundle` - the main app package
-- `{app name}.classic.appxbundle` - package that allows users on older versions of Windows (below 10.0.19041, May 2020 Update) to run your app.
+- `{app name}.classic.appxbundle` - app package that allows users on older versions of Windows (below 10.0.19041, May 2020 Update) to run your app. See our [classic app package explainer](/classic-package.md) for details.
 
 Both packages can be submitted directly to the Microsoft Store through the [Windows Partner Center](https://partner.microsoft.com/dashboard)
 
