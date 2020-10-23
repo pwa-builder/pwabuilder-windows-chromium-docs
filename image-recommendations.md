@@ -146,7 +146,7 @@ For example, if you don't supply a 284x284 (small tile 4x display scale) image i
 
 If PWABuilder generating all the images is acceptable for your app, then you may proceed with Level 1 or Level 2. But if you want control over which icons show up in Windows -- not just using some scaled image variant -- you should choose Level 3 or 4.
 
-Consider, for example, how your app icon might show different content depending on the size:
+Consider, for example, how your app icon might show different content depending on the available surface area:
 
 - Small surface: App icon (44x44) in taskbar, showing a small, abbreviated logo: <br><img src="/images/windows-image-app-icon.png" />
 
