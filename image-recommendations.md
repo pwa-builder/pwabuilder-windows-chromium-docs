@@ -148,19 +148,18 @@ If PWABuilder generating all the images is acceptable for your app, then you may
 
 Consider, for example, how your app icon might show different content depending on the size:
 
-App icon (44x44) in taskbar, showing a small, abbreviated logo:
-<img src="/images/windows-image-app-icon.png" />
+- Small surface: App icon (44x44) in taskbar, showing a small, abbreviated logo: <br><img src="/images/windows-image-app-icon.png" />
 
-Medium tile (150x150) in start menu, showing the full logo of the app:
-<img src="/images/windows-image-medium-tile.png" />
+- Larger surface: Medium tile (150x150) in start menu, showing the full logo of the app:<br><img src="/images/windows-image-medium-tile.png" />
 
-Notice how the content of the icon changed. This is possible only through the use of higher levels of icon support. Thus, we recommend developers choose higher levels to give the best experience for your Windows users.
+Notice how the content of the icon changed. This is possible only through the use of higher levels of icon support. Thus, **we recommend developers choose higher levels to give the best experience for your Windows users.**
 
 ## Icon descriptions
 
 Below you'll find a description of each app icon and where they show up in Windows.
 
 ### App icon
+
 <img src="/images/windows-image-app-icon.png" />
 
 Shown in start menu, task bar, task manager.
