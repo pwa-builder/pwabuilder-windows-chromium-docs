@@ -1,6 +1,6 @@
 ## What is a classic package?
 
-PWABuilder Windows platform generates 2 versions of your app: 
+PWABuilder Windows platform for the new (Chromium-based) Edge generates 2 versions of your app: 
 
 - Modern package that works on newer versions of Windows.
 - Classic package that works on older versions of Windows, with fewer bells and whistles.
@@ -13,7 +13,7 @@ The modern package, `{app name}.msixbundle`, uses the [Hosted App Model](https:/
 
 The classic package, `{app name}.classic.appxbundle`, runs on older versions of Windows, versions prior to 10.0.19041, May 2020 Update. This version still uses the new Edge, but it doesn't rely on the Hosted App Model. Instead, it uses a bootstrapper app which instructs Edge to install and launch the PWA.
 
-The classic package doesn't include some nice-to-haves, such as [different app icons](/image-recommendations.md) for start menu, task bar, etc.
+The classic package still runs in the new Chromium-based Edge, but lacks deep integration with the OS.
 
 ## Versioning
 
