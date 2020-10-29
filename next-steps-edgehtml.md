@@ -21,7 +21,7 @@ The install script will install and launch your PWA app. Once complete, you'll f
 
 ## 2. Submit your app package to the Microsoft Store
 
-Your zip file contains a `*.edgehtml.appxbundle` bundle. This is your Windows app package that can be submitted to the Microsoft Store through the [Windows Partner Center](https://partner.microsoft.com/dashboard)
+Your zip file contains a `*.edgehtml.appxbundle` bundle. This is your EdgeHTML-based Windows app package that can be submitted to the Microsoft Store through the [Windows Partner Center](https://partner.microsoft.com/dashboard).
 
 When you're ready to publish to the Store, you can either:
 
