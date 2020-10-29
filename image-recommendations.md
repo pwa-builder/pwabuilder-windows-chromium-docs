@@ -78,7 +78,7 @@ Display scales are user-configurable in Windows:
 
 Additionally, on Windows devices with high DPI and high resolution displays, Windows may enable a certain display scale by default. For example, on many Microsoft Surface laptops, a display scale of 200% or higher is enabled by default.
 
-Having icons icons for these sizes becomes more important as more devices ship with high density and high resolution displays.
+Having icons for these sizes becomes more important as more devices ship with high density and high resolution displays.
 
 ### Level 4: Tiles, display scales, and target sizes
 
