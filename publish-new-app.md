@@ -38,8 +38,8 @@ On the packages screen, click `Browse your files`. When browsing for your files,
 
 > 💁🏾‍♂️ *Heads up*
 >
-> Once your packages finish uploading, you may see the following warning about full trust: <br><img src="/images/full-trust.png" /><br><br>
-> This warning can be safely ignored.
+> Once your packages finish uploading, you may see warnings about restricted capabilities: <br><img src="/images/full-trust-package-man.png" /><br><br>
+> These warnings can be safely ignored.
 
 
 > 💁‍♂️ *Other errors*
@@ -75,7 +75,7 @@ You should now see the submission status. Fill out any incomplete statuses:
 
 > 💁🏼‍♀️ *Heads up*
 >
-> In `Submission options`, you may receive a warning about full trust capability: <br> <img src="/images/full-trust-restricted.png" width="350px" /><br><br>
+> In `Submission options`, you may receive a warning about restricted capabilities: <br> <img src="/images/full-trust-restricted.png" width="350px" /><br><br>
 > You can write, "Needed for PWA Hosted App model, created by pwabuilder.com"
 
 Complete all such statuses, then click `Submit to the Store` when finished.
