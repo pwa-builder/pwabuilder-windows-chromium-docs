@@ -19,9 +19,13 @@ The classic package still runs in the new Chromium-based Edge, but lacks deep in
 
 The modern package should have a version greater than the classic package. For example, if your modern package is version `2.0.0`, the classic package should be `1.9.0`. 
 
-Be aware that the Store requires that app versions must always start with 1; you cannot have version `0.9.0`, for example. 
+Be aware that your app version cannot begin with zero.
 
-Additionally, app versions cannot contain 4 sections. For example, version `1.5.2.1` is invalid, because the last section is reserved for Store use.
+Additionally, app version must contain 3 sections.
+
+- `0.5.2` - ❌ Invalid, versions cannot start with zero
+- `1.5.2.1` - ❌ Invalid, the 4th section is reserved for Store use
+- `1.5.2` - ✔ Valid
 
 ## Submitting your app to the Store
 
