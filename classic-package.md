@@ -1,6 +1,6 @@
 ## What is a classic package?
 
-PWABuilder Windows platform for the new (Chromium-based) Edge generates 2 versions of your app: 
+PWABuilder's Windows platform generates 2 versions of your app: 
 
 - Modern package that works on newer versions of Windows.
 - Classic package that works on older versions of Windows, with fewer bells and whistles.
