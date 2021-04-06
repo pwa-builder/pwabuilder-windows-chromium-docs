@@ -126,6 +126,7 @@ Your [web app manifest icons](https://www.w3.org/TR/appmanifest/#icons-member) s
 - 32x32 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
 - 36x36 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
 - 40x40 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
+- 44x44 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
 - 48x48 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
 - 60x60 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
 - 64x64 - [target size](https://github.com/pwa-builder/pwabuilder-windows-chromium-docs/blob/master/image-recommendations.md#target-size-images) for taskbar, start menu, task manager
@@ -152,7 +153,9 @@ Consider, for example, how your app icon might show different content depending 
 
 - Larger surface: Medium tile (150x150) in start menu, showing the full logo of the app:<br><img src="/images/windows-image-medium-tile.png" />
 
-Notice how the content of the icon changed. This is possible only through the use of higher levels of icon support. Thus, **we recommend developers choose higher levels to give the best experience for your Windows users.**
+- Wide surface: Wide tile in start menu, showing a more articulated app icon:<br><img src="/images/windows-image-wide-tile.png" />
+
+Notice how the _content_ of the icon changed. This is possible only through the use of higher levels of icon support. Thus, **we recommend developers choose higher levels to give the best experience for your Windows users.**
 
 ## Icon descriptions
 
@@ -259,9 +262,106 @@ Shown in start jump list, shortcuts, control panel:
 - 96x96
 - 256x256 (recommended)
 
+## Windows Light Mode icons
+
+Windows lets users to change their OS theme to Windows Light Mode. Consider the default Windows theme (dark mode):
+
+<img src="/images/windows-os-dark-mode.png" />
+
+Contrasted with Windows Light Mode:
+
+<img src="/images/windows-os-light-mode.png" />
+
+In the above image, notice how the Store app icon is _darker_ when the OS is in Light Mode.
+
+By default, your app will have the same icon for both light and dark modes. 
+
+But if you wish to have a different app icon in Windows Light Mode, you just need to add additional target size icons (16x16, 20x20, 24x24, 30x30, 32x32, 36x36, 40x40, 44x44, 48x48, 60x60, 64x64, 72x72, 80x80, 96x96, 256x256), and set their `purpose` to `lightmode`:
+
+```json
+
+{
+    "src": "/images/icon16x16.png",
+    "sizes": "16x16",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon20x20.png",
+    "sizes": "20x20",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon24x24.png",
+    "sizes": "24x24",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon30x30.png",
+    "sizes": "30x30",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon32x32.png",
+    "sizes": "32x32",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon36x36.png",
+    "sizes": "36x36",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon40x40.png",
+    "sizes": "40x40",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon44x44.png",
+    "sizes": "44x44",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon48x48.png",
+    "sizes": "48x48",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon60x60.png",
+    "sizes": "60x60",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon64x64.png",
+    "sizes": "64x64",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon72x72.png",
+    "sizes": "72x72",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon80x80.png",
+    "sizes": "80x80",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon96x96.png",
+    "sizes": "96x96",
+    "purpose": "lightmode"
+},
+{
+    "src": "/images/icon256x256.png",
+    "sizes": "256x256",
+    "purpose": "lightmode"
+},
+```
+
+If you supply those images in your manifest, your app will use them when Windows is in Light Mode. If you don't provide those images, your app will have the same icon across both Windows Light and Dark modes.
+
 ## Unsupported Windows image types
 
-[Windows Light Theme icons](https://docs.microsoft.com/en-us/windows/uwp/app-resources/tailor-resources-lang-scale-contrast#shell-light-theme-and-unplated-resources) and [high contrast icons](https://docs.microsoft.com/en-us/windows/uwp/app-resources/tailor-resources-lang-scale-contrast#contrast) are currently unsupported in the PWABuilder Windows platform. 
+[High contrast icons](https://docs.microsoft.com/en-us/windows/uwp/app-resources/tailor-resources-lang-scale-contrast#contrast) and [accent color icons](https://blog.mzikmund.com/2015/09/en-accent-color-in-windows-10-app-taskbar-icons/) are currently unsupported in the PWABuilder Windows platform. 
 
 Please [open an issue](https://github.com/pwa-builder/pwabuilder/issues) if support is important to you.
 
