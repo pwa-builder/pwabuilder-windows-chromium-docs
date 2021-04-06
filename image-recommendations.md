@@ -373,7 +373,7 @@ If support for showing only plated icons in Windows is important for your app, p
 
 ## Summary
 
-PWABuilder requires you to have a large, square, PNG image from which it will generate all ~50 recommended Windows app images for you.
+PWABuilder requires you to have a large, square, PNG image from which it will generate all 80 recommended Windows app images for you.
 
 Optionally, you can supply one or more Windows images yourself by adding an image of the right dimensions to your web manifest.
 
