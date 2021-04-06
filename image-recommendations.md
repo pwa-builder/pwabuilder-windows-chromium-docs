@@ -276,84 +276,84 @@ In the above image, notice how the Store app icon is _darker_ when the OS is in 
 
 By default, your app will have the same icon for both light and dark modes. 
 
-But if you wish to have a different app icon in Windows Light Mode, you just need to add additional target size icons (16x16, 20x20, 24x24, 30x30, 32x32, 36x36, 40x40, 44x44, 48x48, 60x60, 64x64, 72x72, 80x80, 96x96, 256x256), and set their `purpose` to `lightmode`:
+But if you wish to have a different app icon in Windows Light Mode, you can use the new [W3C `color_scheme` proposal](https://github.com/w3c/image-resource/issues/26) on icons with sizes 16x16, 20x20, 24x24, 30x30, 32x32, 36x36, 40x40, 44x44, 48x48, 60x60, 64x64, 72x72, 80x80, 96x96, 256x256:
 
 ```json
 
 {
     "src": "/images/icon16x16.png",
     "sizes": "16x16",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon20x20.png",
     "sizes": "20x20",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon24x24.png",
     "sizes": "24x24",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon30x30.png",
     "sizes": "30x30",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon32x32.png",
     "sizes": "32x32",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon36x36.png",
     "sizes": "36x36",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon40x40.png",
     "sizes": "40x40",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon44x44.png",
     "sizes": "44x44",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon48x48.png",
     "sizes": "48x48",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon60x60.png",
     "sizes": "60x60",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon64x64.png",
     "sizes": "64x64",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon72x72.png",
     "sizes": "72x72",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon80x80.png",
     "sizes": "80x80",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon96x96.png",
     "sizes": "96x96",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 {
     "src": "/images/icon256x256.png",
     "sizes": "256x256",
-    "purpose": "lightmode"
+    "color_scheme": "light"
 },
 ```
 
