@@ -354,7 +354,7 @@ But if you wish to have a different app icon in Windows Light Mode, you can use 
     "src": "/images/icon256x256.png",
     "sizes": "256x256",
     "color_scheme": "light"
-},
+}
 ```
 
 If you supply those images in your manifest, your app will use them when Windows is in Light Mode. If you don't provide those images, your app will have the same icon across both Windows Light and Dark modes.
