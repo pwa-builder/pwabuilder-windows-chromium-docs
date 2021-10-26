@@ -34,7 +34,7 @@ On the submission details page, you'll see your most recent app submission. Clic
 
 <img src="/images/packages-new.png" />
 
-On the packages screen, click `Browse your files`. When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`.
+On the packages screen, click `Browse your files`. When browsing for your files, **choose both package files**, `*.msixbundle` *and* `*.appxbundle`. **Do not upload the .sideload.msix package** - that package is intended only for testing; Partner Center will block its upload with a validation error if you try to upload it.
 
 > 💁🏾‍♂️ *Heads up*
 >
