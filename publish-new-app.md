@@ -4,7 +4,7 @@ This guide shows how to publish your PWA as a new app in the Store. If you alrea
 
 ## Enroll in Windows developer program
 
-Login to [Windows Partner Center](https://partner.microsoft.com/dashboard) with your Microsoft account.
+Login to [Microsoft Partner Center](https://partner.microsoft.com/dashboard) with your Microsoft account.
 
 Then, go to your [dashboard](https://partner.microsoft.com/en-us/dashboard/home) to see your enrolled programs. If `Windows & Xbox` is listed, great, you're already enrolled. If not, choose `Add program`: <br> <img src="/images/add-program.png" width="350px" />
 
@@ -63,7 +63,7 @@ Lastly, in the platforms support list, choose `Windows 10 Desktop` and uncheck a
 
 > 💁🏿‍♀️ *Heads up*
 > 
-> While your PWA will run on Windows 10 desktop today, we expect Xbox support to land in 2021. 😎
+> While your PWA will run on Windows 10 and Windows 11 desktop today, we expect Xbox support to land in the near future.
 
 Click `Save` to save your packages and return to the  submission details screen.
 
