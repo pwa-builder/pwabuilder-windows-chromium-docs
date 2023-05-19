@@ -32,7 +32,7 @@ When you're ready to publish to the Store, you can either
 - [Publish a new app in the Store](/publish-new-app.md) 
 - [Update an existing app in the Store](/update-existing-app.md)
 
-Once you submit your app, it will be reviewed. Once approved -- typically within 24 hours -- your PWA will be available in the Microsoft Store and accessible to ~1 billion Windows users worldwide. 😎
+Once you submit your app, it will be reviewed. Once approved -- typically within 24 hours -- your PWA will be available in the Microsoft Store and accessible to ~1.4 billion Windows users worldwide. 😎
 
 ## Recommended images for Windows
 
