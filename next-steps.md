@@ -15,7 +15,9 @@ Right-click `install.ps1` and choose `Run with PowerShell`.
 
 > 💁‍♂️ *Heads up*: 
 > 
-> If you get an error saying, *"install.ps1 cannot be loaded because running scripts is disabled on this system"*, you can fix this by opening PowerShell as Administrator, then entering the command `Set-ExecutionPolicy bypass` Once completed, you'll be able to run `install.ps1`.
+> If you get an error saying, *"install.ps1 cannot be loaded because running scripts is disabled on this system"*, you can fix this by opening PowerShell as Administrator, then entering the command `Set-ExecutionPolicy bypass` Once completed, you'll be able to run `install.ps1`. 
+
+Command eg : (powershell.exe -executionpolicy bypass -windowstyle hidden -noninteractive -nologo -file "<filename>")
 
 The install script will install and launch your PWA app. Once complete, you'll find your app in the Start Menu.
 
