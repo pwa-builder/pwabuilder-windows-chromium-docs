@@ -40,7 +40,7 @@ To help make your PWA shine on Windows, check out our [Windows app images explai
 
 ## Promote your app with a "Get this app in the Microsoft Store" badge
 
-Once you've published your app in the Store, help your users find it. Go to https://developer.microsoft.com/en-us/microsoft-store/badges/ to generate a "Get this app on the Microsoft Store" badge and add the badge to your site. 
+Once you've published your app in the Store, help your users find it. Go to [https://developer.microsoft.com/en-us/microsoft-store/badges/](https://learn.microsoft.com/en-us/windows/apps/publish/microsoft-store-app-badge) to generate a "Get this app on the Microsoft Store" badge and add the badge to your site. 
 
 The badge allows users on Windows to install your app with a single click.
 
